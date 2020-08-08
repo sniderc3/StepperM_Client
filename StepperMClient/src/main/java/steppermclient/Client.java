@@ -26,7 +26,7 @@ public class Client implements Runnable
     private MessageProcessor processor = null;
     private String Username = null;
             
-    
+    //Client method
     public Client(ClientFrame prnt, String usernm)
     {
         this.Username = usernm;
